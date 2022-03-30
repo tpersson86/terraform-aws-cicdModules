@@ -1,7 +1,7 @@
 data "aws_ami" "ubuntu_16_04" {
   most_recent = true
 
-  filter {
+/*   filter {
     // name   = "name"
     // values = ["ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-*"]
     name = "tag:environment"
@@ -12,6 +12,6 @@ data "aws_ami" "ubuntu_16_04" {
     name = "tag:version"
     values = ["3"]
   }
-
+ */
   owners = ["157252224841"]
 }
