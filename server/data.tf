@@ -13,5 +13,5 @@ data "aws_ami" "ubuntu_16_04" {
     values = ["3"]
   }
  */
-  owners = ["157252224841"]
+  owners = ["463708558108"]
 }
